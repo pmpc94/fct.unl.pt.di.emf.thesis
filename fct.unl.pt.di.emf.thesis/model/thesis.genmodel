@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText="" modelDirectory="/fct.unl.pt.di.emf.thesis/src"
+    modelPluginID="fct.unl.pt.di.emf.thesis" modelName="Thesis" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>thesis.emf</foreignModel>
+  <genPackages prefix="Thesis" disposableProviderFactory="true" ecorePackage="thesis.ecore#/">
+    <genClasses ecoreClass="thesis.ecore#//Search">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference thesis.ecore#//Search/drives"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference thesis.ecore#//Search/syncs"/>
+    </genClasses>
+    <genClasses ecoreClass="thesis.ecore#//Drive"/>
+    <genClasses ecoreClass="thesis.ecore#//Folder">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference thesis.ecore#//Folder/contents"/>
+    </genClasses>
+    <genClasses ecoreClass="thesis.ecore#//Shortcut">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference thesis.ecore#//Shortcut/target"/>
+    </genClasses>
+    <genClasses ecoreClass="thesis.ecore#//Sync">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference thesis.ecore#//Sync/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference thesis.ecore#//Sync/target"/>
+    </genClasses>
+    <genClasses ecoreClass="thesis.ecore#//File">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute thesis.ecore#//File/name"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

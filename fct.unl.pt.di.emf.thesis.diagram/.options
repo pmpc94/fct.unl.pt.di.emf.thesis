@@ -1,0 +1,7 @@
+# Tracing options for the fct.unl.pt.di.emf.thesis.diagram plug-in
+
+# Common issues
+fct.unl.pt.di.emf.thesis.diagram/debug=false
+
+# Visual IDs
+fct.unl.pt.di.emf.thesis.diagram/debug/visualID=false

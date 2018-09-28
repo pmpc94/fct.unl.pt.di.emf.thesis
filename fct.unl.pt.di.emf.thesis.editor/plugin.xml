@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated thesis -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="thesis.presentation.ThesisModelWizardID"
+            name="%_UI_ThesisModelWizard_label"
+            class="thesis.presentation.ThesisModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ThesisModelFile.gif">
+         <description>%_UI_ThesisModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated thesis -->
+      <editor
+            id="thesis.presentation.ThesisEditorID"
+            name="%_UI_ThesisEditor_label"
+            icon="icons/full/obj16/ThesisModelFile.gif"
+            extensions="thesis"
+            class="thesis.presentation.ThesisEditor"
+            contributorClass="thesis.presentation.ThesisActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated thesis -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="search.presentation.SearchModelWizardID"
+            name="%_UI_SearchModelWizard_label"
+            class="search.presentation.SearchModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/SearchModelFile.gif">
+         <description>%_UI_SearchModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated thesis -->
+      <editor
+            id="search.presentation.SearchEditorID"
+            name="%_UI_SearchEditor_label"
+            icon="icons/full/obj16/SearchModelFile.gif"
+            extensions="search"
+            class="search.presentation.SearchEditor"
+            contributorClass="search.presentation.SearchActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

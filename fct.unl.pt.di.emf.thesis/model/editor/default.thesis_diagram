@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:thesis="http://www.example.org/thesis" xmi:id="_HXwyEMNiEeiw8rPr7qE-mw" type="Thesis" name="default.thesis_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_6fx9kMNiEeiZTO_kHrIzvw" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6fzywMNiEeiZTO_kHrIzvw" type="5005"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6f0Z0MNiEeiZTO_kHrIzvw" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_7dh_QMNiEeiZTO_kHrIzvw" type="3004" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_7dh_QsNiEeiZTO_kHrIzvw" type="5002"/>
+        <element xmi:type="thesis:File" href="default.thesis#//@drives.0/@contents.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7dh_QcNiEeiZTO_kHrIzvw" x="84" y="63"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_6fx9kcNiEeiZTO_kHrIzvw"/>
+    <element xmi:type="thesis:Drive" href="default.thesis#//@drives.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6fx9ksNiEeiZTO_kHrIzvw" x="428" y="190" width="335" height="219"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_HXwyEcNiEeiw8rPr7qE-mw"/>
+  <element xmi:type="thesis:Search" href="default.thesis#/"/>
+</notation:Diagram>
